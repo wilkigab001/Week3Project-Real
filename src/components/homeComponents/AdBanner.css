@@ -1,0 +1,40 @@
+.ad_banner {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad_cover_text {
+    width:50%;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+
+.ad_cover_text h1 {
+    color: orange;
+    font-size: 45px;
+    height: 60px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.ad_cover_text h3{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ad_cover_text button{
+    margin-top: 10px;
+    border-width: 0;
+    background-color: lightblue;
+    font-size: 20px;
+    color:#3e3e3e;
+}
+
+.new_recipe_header {
+    padding-bottom: 0px;
+}

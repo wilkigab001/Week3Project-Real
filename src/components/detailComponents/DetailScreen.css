@@ -1,0 +1,56 @@
+
+
+.top_half h1{
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+
+.bottom_half_of_display {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px 2px green;
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.recipe_ingredients_card {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 23%;
+    padding: 10px;
+    box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.recipe h2, .ingredients h3, .instructions h3{
+    text-align: center;
+    font-size: 32px;
+    padding-top: 10px;
+}
+
+.recipe p, .ingredients p, .instructions p {
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin: 0;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.instructions p {
+    white-space: pre-wrap;
+}

@@ -1,0 +1,29 @@
+.header {
+    height: 60px;
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.header > h2{
+    width: 66%;
+    
+}
+.button{
+    background-color: orange;
+    outline-width: 0;
+    border-width: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.button:hover {
+    background-color: darkgoldenrod;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}

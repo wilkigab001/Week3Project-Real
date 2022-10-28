@@ -1,0 +1,35 @@
+.span__input{
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    align-items: center;
+}
+
+.input{
+    display:flex;
+    background-color: orange;
+    width: 33%;
+    margin: 10px;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.input__icon{
+    padding-left: 10px;
+}
+
+.input input {
+    outline-width: 0px;
+    background-color: transparent;
+    border-width: 0;
+    padding: 2px;
+    padding-left: 10px;
+    font-size: larger;
+}
+
+.recipe_search{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
